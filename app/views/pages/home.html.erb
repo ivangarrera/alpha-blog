@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  a:link{color:greenyellow; background-color:transparent;text-decoration: #BBBBBB}
+  a:visited{color:red;background-color: transparent;text-decoration:none }
+  table,th,td{text-align: center;
+    border: 1px solid black;
+    border-collapse:collapse;}
+
+  #navegador ul{
+    list-style-type: none;
+    text-align: left;
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 0px;
+    background: red;
+  }
+
+  #navegador li{
+    display: inline;
+    text-align: left;
+    margin: 0 10px 0 0;
+  }
+  #navegador li h1{
+    margin-top: -5px;
+    color: deepskyblue;
+    text-decoration: none;
+  }
+  #navegador li a{
+    padding: 2px 7px 2px 7px;
+    color: deepskyblue;
+    text-decoration: chartreuse;
+  }
+</style>
+</head>
+<body>
+<div id="navegador">
+  <ul>
+    <li><h1>AlphaBlog</h1></li>
+    <li><%=link_to 'About', about_path%></li>
+    <li><a href="#">Categories</a></li>
+    <li><a href="#">Elemento 3</a></li>
+    <li><a href="#">Elemento 4</a></li>
+  </ul>
+</div>
+<h1 style = 'text-align: center; color: indianred;'> Welcome to my blog</h1>
+  <p> This is the list of the things you can see on this blog</p>
+  <ul style="list-style-type: circles">
+    <li> News about computer science in general</li>
+    <li> News about physics </li>
+    <li> Advice about the university in Spain </li>
+  </ul>
+  <p>
+  <hr>
+  If you want to know where I'm studying <a href="http://www.uclm.es">click here</a>
+  <p><br>You can discover more about me in the following link <%=link_to 'About',about_path%></p>
+  <p><br>The people who work in this page are:</p>
+  </p>
+  <table style="width: 100%;">
+    <tr>
+      <th>Identifier</th>
+      <th>Name</th>
+      <th>Surname</th>
+      <th>Date</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Iván</td>
+      <td>García Herrera</td>
+      <td><date>10/06/1997</date></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Jacinto</td>
+      <td>González Gómez</td>
+      <td><date>03/04/1992</date></td>
+    </tr>
+  </table>
+</body>
+
+</html>
