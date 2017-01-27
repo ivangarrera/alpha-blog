@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e9f15a5-87e7-43c7-8ceb-0c7247addd5f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/articles_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
-    </list>
+    <list default="true" id="1e9f15a5-87e7-43c7-8ceb-0c7247addd5f" name="Default" comment="" />
     <ignored path="example1.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -522,12 +520,12 @@
       <workItem from="1481391914478" duration="251000" />
       <workItem from="1485510917326" duration="801000" />
       <workItem from="1485512763363" duration="6993000" />
-      <workItem from="1485525315088" duration="1331000" />
+      <workItem from="1485525315088" duration="1524000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16704000" />
+    <option name="totallyTimeSpent" value="16897000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1431" y="24" width="1615" height="1026" extended-state="6" />
